@@ -16,10 +16,15 @@ body {
   background-color: var(--bg-color);
   color: var(--font-color);
   font-family: "Ubuntu", sans-serif;
+  height: 100vh;
 }
 
 main {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
   margin: 0 auto;
   max-width: 40rem;
   padding: 0 1.5rem 2.5rem;
@@ -28,6 +33,7 @@ main {
 
 header {
   padding: 2rem 0;
+  width: 100%;
 }
 
 #themeSwitcher {
@@ -68,6 +74,7 @@ input {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1rem;
   margin: 2rem 0;
+  width: 100%;
 }
 
 #keys button {
@@ -100,6 +107,7 @@ input {
 
 .flex {
   display: flex;
+  width: 100%;
 }
 
 .align-center {
